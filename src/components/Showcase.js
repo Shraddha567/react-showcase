@@ -2,7 +2,7 @@ import React from 'react';
 import useFetch from '../hooks/useFetch';
 
 const Showcase = () => {
-    const { data, loading, error } = useFetch('https://api.example.com/items');
+    const { data, loading, error } = useFetch('https://jsonplaceholder.typicode.com/posts');
 
     if (loading) return <div>Loading...</div>;
     if (error) return <div>Error fetching data: {error.message}</div>;
@@ -11,10 +11,10 @@ const Showcase = () => {
         <div className="showcase">
             <h2>Showcase Items</h2>
             <ul>
-                {data.map(item => (
+                {data.slice(0, 5).map(item => (
                     <li key={item.id}>
                         <h3>{item.title}</h3>
-                        <p>{item.description}</p>
+                        <p>{item.body}</p>
                     </li>
                 ))}
             </ul>
