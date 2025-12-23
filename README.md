@@ -1,5 +1,9 @@
 # React Showcase Application
 
+## 🚀 Live Demo
+
+👉 https://shraddha567.github.io/react-showcase
+
 ## Purpose
 
 The React Showcase application is designed to demonstrate the capabilities of React.js by showcasing various features or items. This project serves as a portfolio piece, highlighting the use of components, custom hooks, and API integration. It provides a clean and interactive interface for users to explore the showcased items.
