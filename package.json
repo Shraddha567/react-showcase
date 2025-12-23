@@ -1,0 +1,37 @@
+{
+  "name": "react-showcase",
+  "version": "1.0.0",
+  "description": "A React.js application that showcases various features or items, demonstrating the use of components, hooks, and API integration.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [
+    "react",
+    "showcase",
+    "portfolio",
+    "hooks",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://github.com/Shraddha567/react-showcase",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/react-showcase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/react-showcase/issues"
+  }
+}
